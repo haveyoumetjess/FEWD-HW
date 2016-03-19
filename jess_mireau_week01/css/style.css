@@ -1,0 +1,126 @@
+/* OVERALL STYLES */
+body {
+	background-color: #f6f6f6;
+	max-width: 95%;
+	margin: 20px auto;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	padding-bottom: 50px;
+}
+
+#container {
+	max-width: 88%;
+	margin: 0 auto;
+}
+
+img {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+/* TEXT STYLES */
+h1, h2, h3 {
+	font-family: sans-serif;
+}
+
+h1, h3 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+a {
+	color: black;
+	font-weight: bold;
+}
+
+p {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+
+/* HEADER */
+#header {
+	text-align: center;
+	border-bottom: 1px solid black;
+	margin-bottom: 30px;
+}
+
+#header > h1 {
+	margin: 10px 0 35px 0;
+}
+
+#main-nav {
+	margin-top: 60px;
+}
+
+.current a {
+	font-style: italic;
+	text-decoration: none;
+}
+
+/* LINKS */
+#social {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.links ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-family: sans-serif;
+}
+
+.links ul li {
+	display: inline-block;
+	padding: 0 4px 0;
+	border-right: 2px solid black;
+}
+
+.links ul li:last-of-type {
+	border-right: none;
+}
+
+/* ABOUT ME PAGE */
+#about {
+	display: inline-block;
+	width: 65%;
+}
+
+#bio {
+	border-bottom: 2px solid black;
+}
+
+#profile-pic {
+	width: 30%;
+	float: right;
+	
+}
+
+.clear {
+	clear: both;
+}
+
+/* PORTFOLIO PAGE*/
+#portfolio li > p {
+	margin: 0 0 20px 0;
+}
+
+#portfolio li > img {
+	margin: 0 0 40px 20px;
+}
+
+.role, .company, .timespan, .institution, .degree {
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+.role, .institution {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.timespan, .degree {
+	font-size: 13px;
+}
